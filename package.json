@@ -1,0 +1,27 @@
+{
+  "name": "json-minify-brunch",
+  "version": "1.0.0",
+  "description": "Adds JSON minification support to brunch.",
+  "author": "ns130291",
+  "homepage": "https://github.com/ns130291/json-minify-brunch",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ns130291/json-minify-brunch.git"
+  },
+  "scripts": {
+    "test": "eslint index.js && mocha"
+  },
+  "dependencies": {
+    "brunch": ""
+  },
+  "devDependencies": {
+    "chai": "^4.2",
+    "eslint": "^6.7",
+    "mocha": "^6.2",
+    "eslint-config-brunch": "^1.2"
+  },
+  "eslintConfig": {
+    "extends": "brunch"
+  }
+}
